@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Study Timer</title>
+</head>
+<body>
+    <div class="main">
+        <input class="aim" placeholder="What do you want to focus on?" type="text">
+        <div class="timer">
+            <div class="buttons">
+                <button type="button" id="pomodoroButton" class="active">Pomodoro</button>
+                <button type="button" id="shortBreakButton">Short Break</button>
+                <button type="button" id="longBreakButton">Long Break</button>
+            </div>
+            <div class="control-buttons">
+                <button type="button" id="startPause">Start</button>
+                <button type="button" id="reset">Reset</button>
+            </div>
+            <div class="clock">
+                Time: <span id="timer">30:00</span>
+            </div>
+            <div class="timercontrols">
+
+            </div>
+        </div>
+        <div class="fullscreen-button">
+            <button type="button" id="fullscreen">Full Screen</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
